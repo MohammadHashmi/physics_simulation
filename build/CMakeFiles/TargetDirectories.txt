@@ -1,0 +1,3 @@
+/home/dubi/Downloads/physics_simulation/build/CMakeFiles/physics_simulation.dir
+/home/dubi/Downloads/physics_simulation/build/CMakeFiles/edit_cache.dir
+/home/dubi/Downloads/physics_simulation/build/CMakeFiles/rebuild_cache.dir

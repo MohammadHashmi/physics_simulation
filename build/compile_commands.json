@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/dubi/Downloads/physics_simulation/build",
+  "command": "/usr/bin/c++ -I/home/dubi/Downloads/physics_simulation/include -g -o CMakeFiles/physics_simulation.dir/src/main.cpp.o -c /home/dubi/Downloads/physics_simulation/src/main.cpp",
+  "file": "/home/dubi/Downloads/physics_simulation/src/main.cpp"
+},
+{
+  "directory": "/home/dubi/Downloads/physics_simulation/build",
+  "command": "/usr/bin/cc -I/home/dubi/Downloads/physics_simulation/include -g -o CMakeFiles/physics_simulation.dir/src/glad.c.o -c /home/dubi/Downloads/physics_simulation/src/glad.c",
+  "file": "/home/dubi/Downloads/physics_simulation/src/glad.c"
+}
+]
