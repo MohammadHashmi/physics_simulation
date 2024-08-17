@@ -1,7 +1,7 @@
 # ninja log v5
 0	86	1723733560545189466	CMakeFiles/physics_simulation.dir/main.cpp.o	4da66909c01e6013
-44	76	1723733830629679340	physics_simulation	84de69c46618cf92
-0	44	1723733830597675586	CMakeFiles/physics_simulation.dir/src/main.cpp.o	4e6e1d2797196e1c
+28	63	1723738551660699319	physics_simulation	32dcdac19c1c8976
+1	28	1723738551624699065	CMakeFiles/physics_simulation.dir/src/main.cpp.o	b305cbe8fd6502d0
 0	113	1723734374181353210	CMakeFiles/physics_simulation.dir/src/glad.c.o	c8eaee2f4afac407
-0	36	1723734431727215585	CMakeFiles/physics_simulation.dir/src/main.cpp.o	b305cbe8fd6502d0
-36	71	1723734431775220509	physics_simulation	32dcdac19c1c8976
+0	118	1723853340408170706	CMakeFiles/physics_simulation.dir/src/main.cpp.o	b305cbe8fd6502d0
+118	207	1723853340496172783	physics_simulation	32dcdac19c1c8976
