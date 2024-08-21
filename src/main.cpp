@@ -8,6 +8,13 @@ void viewport_size_changer(GLFWwindow* window, int width, int height)
 }
 
 int main(int, char**){
+    // Vertices of the triangle
+    float vertices[] = {
+       -0.5f, -0.5f, 0.0f,
+        0.5f, -0.5f, 0.0f,
+        0.0f,  0.5f, 0.0f
+    }; 
+
     // Initialize glfw
     glfwInit();
 
@@ -34,12 +41,22 @@ int main(int, char**){
 
     // Creates the rendering area using viewport
     // Changes values based on the window size
-
     glfwSetFramebufferSizeCallback(window, viewport_size_changer);
+
+    // Generates a buffer which we are going to use to render the triangle
+    unsigned int buffer;
+    glGenBuffers(1, &buffer);
+
+    // Selects the buffer we just made
+    glBindBuffer(GL_ARRAY_BUFFER, buffer);
+
+    // Buffer data that we are going to use to draw the triangle
+    glBufferData(GL_ARRAY_BUFFER, 6 * sizeof(float), vertices, GL_STATIC_DRAW);
 
     // Render loop to have the window running
     while(!glfwWindowShouldClose(window))
     {
+        glDrawArrays(GL_TRIANGLES, 0, 3);
         glfwSwapBuffers(window);
         glfwPollEvents();    
     } 
